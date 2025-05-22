@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Colaboration </title>
+<!-- Google Fonts (misalnya Poppins + Dancing Script untuk efek elegan) -->
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- custom css file link -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        window.addEventListener('load', () => {
+          const left = document.querySelector('.curtain-left');
+          const right = document.querySelector('.curtain-right');
+          const curtain = document.getElementById('curtain');
+      
+          setTimeout(() => {
+            left.classList.add('open');
+            right.classList.add('open');
+          }, 1000); // delay before opening
+      
+          setTimeout(() => {
+            curtain.style.display = 'none';
+          }, 3200); // remove curtain after animation
+        });
+        
+      </script>
+      
+      
+      
+      
+      
+  <!-- Welcome Curtain Animation -->
+  <div id="curtain">
+    <div class="curtain-side curtain-left">
+      <div class="text-part left-text">Welcome</div>
+    </div>
+    <div class="curtain-side curtain-right">
+      <div class="text-part right-text">To my web</div>
+    </div>
+  </div>
+  
+  
+  
+  
+<!-- custom cursor -->   
+ <img src="image.k/touch.png" class="cursor" alt="">
+<!-- custom cursor -->   
+
+<!-- header section starts -->
+
+<header class="header">
+
+  <a href="#home" class="logo">Porfolio.</a>
+   
+  <div id="menu-btn" class="fas fa-bars"></div>
+
+</header>
+
+<!-- header section ends -->
+
+<nav class="navbar">
+    <a href="#home" data-src="image.k/h.JPG">home</a>
+    <a href="#about" data-src="image.k/a.JPG">about</a>
+    <a href="#services" data-src="image.k/s.JPG">services</a>
+    <a href="#projects" data-src="image.k/project.JPG">projects</a>
+    <a href="#contact" data-src="image.k/c.JPG">contact</a>
+</nav>
+
+
+<div class="navbar-img">
+    <img src="image.k/p.jpg" alt="">
+</div>
+
+
+<!-- home section starts -->
+
+<section class="home" id="home">
+    <h3 class="animate-text delay-1">Hi, my name is</h3>
+    <h3 class="home-text animate-text delay-2">Regina Mustika N</h3>
+    <h3 class="animate-text delay-3">I'm a developer</h3>
+    <img src="image.k/p4.jpg" class="home-img" alt="">
+    <div class="wave"></div>
+    <div class="wave wave-2"></div>
+    <div class="wave wave-3"></div>
+  </section>
+  
+<!-- home section ends -->
+
+
+ 
+<!-- about section starts -->
+ 
+
+
+<section class="about" id="about">
+
+    <div class="skill">
+
+    <div class="box">
+        <h3 class="title">desain skills</h3>
+        <div class="progress progress-1">
+            <h3> HTML  <span> 95% </span></h3>
+            <div class="bar"><span></span></div>
+        </div>
+        <div class="progress progress-2">
+            <h3> CSS <span> 90% </span></h3>
+            <div class="bar"><span></span></div>
+        </div>
+        <div class="progress progress-3">
+            <h3> JavaScript <span> 92% </span></h3>
+            <div class="bar"><span></span></div>
+        </div>
+        <div class="progress progress-4">
+            <h3> Graphic <span> 90% </span></h3>
+            <div class="bar"><span></span></div>
+        </div>
+    </div>
+
+       <div class="box">
+        <h3 class="title">development skills</h3>
+        <div class="progress progress-5">
+            <h3> PHP <span> 95% </span></h3>
+            <div class="bar"><span></span></div>
+        </div>
+        <div class="progress progress-6">
+            <h3> MySQL <span> 90% </span></h3>
+            <div class="bar"><span></span></div>
+        </div>
+        <div class="progress progress-7">
+            <h3> Mode JS <span> 92% </span></h3>
+            <div class="bar"><span></span></div>
+        </div>
+        <div class="progress progress-8">
+            <h3> JavaScript <span> 93% </span></h3>
+            <div class="bar"><span></span></div>
+        </div>
+       </div>
+
+
+    </div>
+
+    <div class="info-container">
+
+        <div class="info">
+            <p> regina mustika  <span> : name </span></p>
+            <p> front-end developer <span> : skill </span></p>
+            <p> 15 <span> : age </span></p>
+            <p> female <span> : gender </span></p>
+            <p> BMS-marketting <span> : graduation </span></p>
+            <p> 3+ year <span> : experience </span></p>
+        </div>
+    
+
+    <div class="image">
+        <img src="image.k/bb.png" alt="">
+    </div>
+
+        <div class="info">
+            <p> <span> freelance : </span> available </p>
+            <p> <span> laguage : </span> english,indonesia </p>
+            <p> <span> phone : </span> +62 1922 1986 1903 </p>
+            <p> <span> email : </span> reregiena@gmail.com </p>
+            <p> <span> address : </span> boyolali , tengaran </p>
+            <p> <span> coutry : </span> indonesia </p>
+            
+        </div>
+    </div>
+
+ </section>
+
+<!-- about section ends -->
+
+
+<!-- services section starts -->
+
+<section class="services" id="services">
+
+    <h1 class="heading"> my services </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <img src="image.k/w1.png" alt="">
+        <h3> HTML </h3>
+        <p>HTML (HyperText Markup Language) is a markup language used to create the structure and content of web pages </p>
+        <a href="skill.html" class="btn"> Read more </a>
+    </div>
+
+    <div class="box">
+        <img src="image.k/w2.png" alt="">
+        <h3> CSS </h3>
+        <p>CSS (Cascading Style Sheets) is a stylesheet language used to control the appearance and layout of web pages</p>
+        <a href="skil2.html" class="btn"> Read more </a>
+    </div>
+
+    <div class="box">
+        <img src="image.k/w3.png" alt="">
+        <h3> JavaScript </h3>
+        <p> JavaScript is a programming language used to make web pages more interactive and dynamic </p>
+        <a href="skil3.html" class="btn"> Read more </a>
+    </div>
+
+    <div class="box">
+        <img src="image.k/w6.png" alt="">
+        <h3> Pypthon </h3>
+        <p>Python can be used for various purposes, such as web evelopment, data analysis, artificial intelligence, and more.</p>
+        <a href="skil4.html" class="btn"> Read more </a>
+    </div>
+
+    <div class="box">
+        <img src="image.k/w4.png" alt="">
+        <h3> C++ </h3>
+        <p> C++ is a powerful and flexible programming language, used to develop various types of applications </p>
+        <a href="skill5.html" class="btn"> Read more </a>
+    </div>
+
+    <div class="box">
+        <img src="image.k/w5.png" alt="">
+        <h3> PHP </h3>
+        <p> HP is used in the development of content management systems like WordPress and Joomla </p>
+        <a href="skill6.html" class="btn"> Read more </a>
+    </div>
+
+</div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- projects section starts -->
+
+<section class="projects" id="projects">
+    <h1 class="heading"> my projects </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image.k/pro1.JPG" alt="">
+            <div class="content">
+                <i class="fas fa-info"></i>
+                <h3>History</h3>
+                <p>project 01</p>
+                <a href="projek/TUGAS PROJEK AKHIR SMS1/Tugas projek-1.html" class="btn">go now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image.k/traveling.JPG" alt="">
+            <div class="content">
+                <i class="fas fa-info"></i>
+                <h3>Traveling</h3>
+                <p>project 02</p>
+                <a href="https://naimanasifa12.github.io/unv//" class="btn">go now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image.k/pro4.JPG" alt="">
+            <div class="content">
+                <i class="fas fa-info"></i>
+                <h3>Travel</h3>
+                <p>project 03</p>
+                <a href="projek/webtravel/index.html" class="btn">go now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image.k/pro5.JPG" alt="">
+            <div class="content">
+                <i class="fas fa-info"></i>
+                <h3>Marketplace</h3>
+                <p>project 04</p>
+                <a href="projek/shoping/index.html" class="btn">go now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image.k/pro3.JPG" alt="">
+            <div class="content">
+                <i class="fas fa-info"></i>
+                <h3>Hospital</h3>
+                <p>project 05</p>
+                <a href="projek/hospital/hospital.html" class="btn">go now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image.k/pro2.JPG" alt="">
+            <div class="content">
+                <i class="fas fa-info"></i>
+                <h3>Bioskop</h3>
+                <p>project 06</p>
+                <a href="projek/bioskop/t4.html" class="btn">go now</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- projects section ends -->
+
+<!-- contact section starts -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> contact me </h1>
+
+    <form action="">
+        <input type="text" placeholder="name" class="box">
+        <input type="email" placeholder="email" class="box">
+        <input type="number" placeholder="phone" class="box">
+        <textarea name="" placeholder="mesage" class="box" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="send message" class="box">
+
+    </form>
+</section>
+
+
+
+<!-- contact section ends -->
+
+<!-- footer section starts -->
+
+<section class="footer">
+
+    <div class="share">
+        <a href="https://www.tiktok.com/@r3g1n00?_t=ZS-8wXejbUBPAQ&_r=1" class="fab fa-tiktok"></a>
+        <a href="https://youtube.com/@reregiena-b4c?si=zXFc2KUORAXEKlBj" class="fab fa-youtube"></a>
+        <a href="https://web.whatsapp.com/" class="fab fa-whatsapp"></a>
+        <a href="https://www.instagram.com/xyzrgna__?igsh=MWczNzk2bHZ4YjZm&utm_source=qr" class="fab fa-instagram"></a>
+    </div>
+     
+    <div class="link">
+        <a class="btn" href="#home">home</a>
+        <a class="btn" href="#about">about</a>
+        <a class="btn" href="#services">services</a>
+        <a class="btn" href="#projects">projects</a>
+        <a class="btn" href="#contact">contact</a>
+    </div>
+
+    <fiv class="credit"> created by <span> reregiena </span> | all rights reserved!</fiv>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer section starts -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link -->
+ <script src="script.js"></script>
+</body>
+</html>
